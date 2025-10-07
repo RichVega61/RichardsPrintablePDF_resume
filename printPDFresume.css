@@ -1,0 +1,96 @@
+button {
+    font-size: x-large;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+printPDF>center>button {
+    font-size: xx-large;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-top: 20px;
+    color: blanchedalmond;
+    background-color: darkslateblue;
+}
+
+
+
+
+.top-section {
+    display: inline-block flex;
+    height: 400px;
+    width: 600px;
+    background-color: lightsteelblue;
+    margin-top: 20px;
+    padding: 25px;
+
+}
+
+.photo_001 {
+    float: left;
+    font-size: large;
+    height: 110px;
+    width: 110px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.bullet-list-section {
+    height: 400px;
+    width: 650px;
+    background-color: lightcyan;
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.contact-info {
+    height: 500px;
+    width: 500px;
+    background-color: beige;
+    font-size: large;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.personal_info {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background-color: lightgreen;
+    font-size: large;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.close-window-button {
+    color: black;
+    width: 100px;
+    font-size: x-large;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.work-history-section {
+    height: 855px;
+    width: 650px;
+    background-color: lightgoldenrodyellow;
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
